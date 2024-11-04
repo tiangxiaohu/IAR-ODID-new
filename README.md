@@ -22,7 +22,9 @@ Set the path of the uncased-bert model (parameter "bert_model" in init_parameter
 Datasets derived from public resources and made available with the article.
 
 Banking: [https://github.com/PolyAI-LDN/task-specific-datasets](https://github.com/PolyAI-LDN/task-specific-datasets).
+
 CLINC: [https://github.com/clinc/oos-eval](https://github.com/clinc/oos-eval).
+
 StackOverflow: [https://github.com/jacoxu/StackOverflow](https://github.com/jacoxu/StackOverflow).
 ## Usage
 Run the experiments by: 
