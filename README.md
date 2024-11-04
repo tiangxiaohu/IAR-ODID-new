@@ -3,6 +3,15 @@
 ## Introduction
 This repository provides the official PyTorch implementation of the research paper 'Learning Isotropy-Aware Representations for Out-of-domain Intent Discovery'
 
+## Datasets
+Datasets derived from public resources and made available with the article.
+
+Banking: [https://github.com/PolyAI-LDN/task-specific-datasets](https://github.com/PolyAI-LDN/task-specific-datasets).
+
+CLINC: [https://github.com/clinc/oos-eval](https://github.com/clinc/oos-eval).
+
+StackOverflow: [https://github.com/jacoxu/StackOverflow](https://github.com/jacoxu/StackOverflow).
+
 ### Dependencies 
 
 We use anaconda to create python environment:
@@ -18,14 +27,7 @@ pip install -r requirements.txt
 Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html). 
 
 Set the path of the uncased-bert model (parameter "bert_model" in init_parameter.py).
-## Datasets
-Datasets derived from public resources and made available with the article.
 
-Banking: [https://github.com/PolyAI-LDN/task-specific-datasets](https://github.com/PolyAI-LDN/task-specific-datasets).
-
-CLINC: [https://github.com/clinc/oos-eval](https://github.com/clinc/oos-eval).
-
-StackOverflow: [https://github.com/jacoxu/StackOverflow](https://github.com/jacoxu/StackOverflow).
 ## Usage
 Run the experiments by: 
 ```
